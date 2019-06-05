@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         init();
         datas = SMSUtils.getSmsInPhone(this);
         adapter.setNewData(datas);
+        ///
     }
 
     private void init() {
